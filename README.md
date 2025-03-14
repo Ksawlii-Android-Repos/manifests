@@ -76,6 +76,12 @@ curl --create-dirs -o ".repo/local_manifests/merlinx-pb-a14.xml" "https://raw.gi
 curl --create-dirs -o ".repo/local_manifests/merlinx-pexp-a13.xml" "https://raw.githubusercontent.com/Ksawlii-Android-Repos/manifests/refs/heads/main/merlinx-pexp-a13.xml"
 ```
 
+# merlinx-arrow-a13.xml
+
+```bash
+curl --create-dirs -o ".repo/local_manifests/merlinx-arrow-a13.xml" "https://raw.githubusercontent.com/Ksawlii-Android-Repos/manifests/refs/heads/main/merlinx-arrow-a13.xml"
+```
+
 # exynos9820-a15.xml
 
 ```bash
