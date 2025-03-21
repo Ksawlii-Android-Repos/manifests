@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ksawlii"
+          fetch="https://github.com/Ksawlii-Android-Repos"
+          revision="havoc-11" />
+
+  <!-- Samsung MSM8916 common repos -->
+  <project path="device/samsung/msm8916-common" name="kreciorek/android_device_samsung_msm8916-common" remote="github" revision="lineage-18.1"/>
+  <project path="kernel/samsung/msm8916" name="Gabboxl/android_kernel_samsung_msm8916" remote="github" revision="lineage-18.1"/>
+  <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-18.1exp"/>
+
+  <!-- LineageOS repos -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-18.1"/>
+
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1"/>
+
+  <!-- Grand Prime specific trees -->
+  <project path="device/samsung/gprimelte-common" name="android_device_samsung_gprimelte-common" remote="ksawlii"/>
+
+  <project path="device/samsung/gprimeltexx" name="android_device_samsung_gprimeltexx" remote="ksawlii"/>
+  <project path="device/samsung/fortuna3g" name="android_device_samsung_fortuna3g" remote="ksawlii"/>
+  <project path="device/samsung/fortunave3g" name="android_device_samsung_fortunave3g" remote="ksawlii"/>
+  <project path="device/samsung/fortunalteub" name="android_device_samsung_fortunalteub" remote="ksawlii"/>
+  <project path="device/samsung/gprimelte" name="android_device_samsung_gprimelte" remote="ksawlii"/>
+  <project path="device/samsung/fortuna3gdtv" name="android_device_samsung_fortuna3gdtv" remote="ksawlii"/>
+  <project path="device/samsung/gprimeltetfnvzw" name="android_device_samsung_gprimeltetfnvzw" remote="ksawlii"/>
+  <project path="device/samsung/gprimelteusc" name="android_device_samsung_gprimelteusc" remote="ksawlii"/>
+  <project path="device/samsung/fortunaltedx" name="android_device_samsung_fortunaltedx" remote="ksawlii"/>
+</manifest>
